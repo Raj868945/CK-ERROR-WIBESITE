@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CK ERROR OFFICIAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGO -->
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." class="logo">
+
+  <h1>CK ERROR OFFICIAL</h1>
+  <p class="tag">Tech • Automation • Digital Services</p>
+
+  <h2>🛠 Our Services</h2>
+
+  <div class="box">
+    <h3>🤖 Telegram Bot Development</h3>
+    <p>Auto reply, admin system</p>
+    <p class="price">₹499</p>
+  </div>
+
+  <div class="box">
+    <h3>📱 WhatsApp Bot Setup</h3>
+    <p>Group tools, automation</p>
+    <p class="price">₹799</p>
+  </div>
+
+  <div class="box">
+    <h3>🌐 Website Design</h3>
+    <p>Business / Portfolio website</p>
+    <p class="price">₹999</p>
+  </div>
+
+  <div class="box">
+    <h3>⚙ Automation Service</h3>
+    <p>Daily task automation</p>
+    <p class="price">₹699</p>
+  </div>
+
+  <div class="box">
+    <h3>🎨 Logo & Branding</h3>
+    <p>Logo, banner, DP</p>
+    <p class="price">₹399</p>
+  </div>
+
+  <div class="box">
+    <h3>🧑‍💻 Technical Support</h3>
+    <p>Bot / Website support</p>
+    <p class="price">₹299</p>
+  </div>
+
+  <h2>🧾 Place Order</h2>
+
+  <form onsubmit="sendOrder()">
+    <input id="name" placeholder="Your Name" required>
+    <input id="service" placeholder="Service Name" required>
+    <button type="submit">Order on WhatsApp</button>
+  </form>
+
+  <script>
+    function sendOrder(){
+      var name = document.getElementById('name').value;
+      var service = document.getElementById('service').value;
+      var text = Name: ${name}%0AService: ${service};
+      window.open(https://wa.me/919046579718?text=${text});
+    }
+  </script>
+
+</body>
+</html>
